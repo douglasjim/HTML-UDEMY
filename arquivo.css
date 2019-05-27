@@ -1,0 +1,20 @@
+/* arquivo css*/ 
+
+{
+    color: darkviolet; /* todas as tag p ira ficar nessa cor*/
+    font-size: 2em; /*nessa parte mexemos com o tamanho da fonte*/
+}
+
+.exp{ /*essa tag é exclusiva de alguma tag no arquivo html como por exemplo temos uma tag <p> e dentro dela temos um endereço e so queremos modificar a fonte dela entao la na tag esta escrito class = "exp" assim iremos identificar ela aqui no css para modificar */
+    color: aqua;
+    font-size: 1em;
+}
+h4.exp{
+    color: orange;
+}
+p.exp{
+    color: firebrick;
+}
+
+
+/*TENHO QUE VER COMO FUNCIONA O FILTRO DE ENTRAR DENTRO DE OUTRA TAG E MODIFICAR AS COISAS DENTRO DELE !!*/
